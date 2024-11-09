@@ -4,8 +4,6 @@ import { data } from "./Data";
 
 function App() {
   const articles = data.map((items,index) => {
-    console.log(index,"This Current Index")
-    console.log(data.length,"data length")
     if(data.length - 1 === index) {
       console.log(true)
     }
