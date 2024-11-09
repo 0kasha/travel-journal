@@ -4,10 +4,6 @@ import { data } from "./Data";
 
 function App() {
   const articles = data.map((items,index) => {
-    if(data.length - 1 === index) {
-      console.log(true)
-    }
-    
     return(
       <>
       <Hero
